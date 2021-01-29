@@ -156,6 +156,14 @@
   <ItemGroup>
     <Text Include="src\test.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shader\3.3.shader.frag" />
+    <None Include="res\shader\3.3.shader.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\texture\awesomeface.png" />
+    <Image Include="res\texture\container.jpg" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

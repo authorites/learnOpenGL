@@ -22,4 +22,16 @@
   <ItemGroup>
     <Text Include="src\test.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shader\3.3.shader.frag" />
+    <None Include="res\shader\3.3.shader.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\texture\awesomeface.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\texture\container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
